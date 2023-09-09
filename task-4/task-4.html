@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head tag starts here -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  normalize style sheet  -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <!-- linking style sheet -->
+  <link rel="stylesheet" href="./task-4.css">
+  <title>Task 4</title>
+</head>
+<!-- head tag ends here -->
+
+<!-- body tag starts here -->
+<body>
+  <!-- main tag starts here  -->
+  <main class="main-wrapper">
+    <h1>Connect With Us</h1>
+    <p>We would love to respond to your queries and help you succeed.</p>
+    <p>Feel free to get in touch with us.</p>
+
+    <!-- flex-wrapper starts here  -->
+    <div class="flex-wrapper">
+      <!-- person-details-layout starts here  -->
+      <div class="person-details-layout"> 
+        <h3>Send your request</h3>
+        <!-- form tag starts here  -->
+        <form class="contact-us-form">
+          <!-- name input starts here  -->
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="name" value="John Amendo">
+          </div>
+          <!-- name input ends here  -->
+
+          <!-- phone input starts here  -->
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" class="phone" value="+1 412 520 3231">
+          </div>
+          <!-- phone input ends here  -->
+
+          <!-- email input starts here  -->
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="email" value="johnamendogm@gmail.com">
+          </div>
+          <!-- email input ends here  -->
+          
+          <!-- subject input starts here  -->
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="subject" value="Product Demo">
+          </div>
+          <!-- subject input ends here  -->
+
+          <!-- message input starts here  -->
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" class="message" placeholder="Your Message" cols="62" rows="4"></textarea>  
+          </div>
+          <!-- subject input ends here  -->    
+          <div>
+            <button type="submit" class="send-btn">SEND</button>
+          </div>   
+        </form>
+        <!-- form tag ends here  -->
+      </div>
+      <!-- person-details-layout ends here  -->
+       
+      <!--- aside-layout starts here  -->
+      <aside class="aside-layout">
+        <h3>Reach Us</h3>
+        <div>
+          <span>Email</span>
+          <span>contactus@example.com</span>
+        </div>
+        <div>
+          <span>Phone</span>
+          <span>+1 012 345 6789</span>
+        </div>
+        <div>
+          <span class="address">Address</span>
+          <span>#212, Ground floor, 7th cross Some layout, Some Road, Koramangla <br> Bengaluru 560001</span>
+        </div>
+      </aside>
+      <!-- aside-layout ends here  -->
+    </div>
+    <!-- flex-wrapper ends here  -->
+  </main>
+  <!-- main tag ends here  -->
+</body>
+<!-- body tag ends here  -->
+</html>

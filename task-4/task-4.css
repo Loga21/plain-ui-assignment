@@ -1,0 +1,116 @@
+* {
+  font-family: Arial;
+}
+
+.main-wrapper {
+  border: 1px solid transparent;
+  background-color: aquamarine;
+  width: 82%;
+  height: 645px;
+  margin: 10px auto;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+p {
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-top: -12px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.person-details-layout {
+  width: 60%;
+  height: 470px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.contact-us-form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.contact-us-form label {
+  display: block;
+}
+
+.name,
+.phone,
+.email,
+.subject {
+  border: 1px solid rgb(117, 117, 117);
+  width: 80%;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  color: rgb(138, 138, 138);
+}
+
+label {
+  color: rgb(2, 2, 153);
+}
+
+h3 {
+  color: rgb(2, 2, 153);
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+textarea {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+button {
+  color: white;
+  background-color: rgb(0, 0, 218);
+  border-radius: 20px;
+  border: none;
+  padding: 10px 30px;
+  margin-left: -303px;
+  margin-top: 167px;
+  box-shadow: 0 2px 5px 0px #012236;
+}
+button:hover {
+  background-color: rgb(89, 89, 243);
+  cursor: pointer;
+}
+
+.aside-layout {
+  background-color: rgb(0, 0, 218);
+  color: white;
+  width: 80%;
+  margin-right: 38px;
+  margin-top: 20px;
+}
+.aside-layout h3 {
+  color: white;
+  margin-left: 29px;
+}
+.aside-layout div {
+  display: grid;
+  grid-template-columns: 25% 69%;
+  margin-right: 23px;
+}
+.aside-layout span {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.address {
+  padding-top: 25px;
+}
+
+/*# sourceMappingURL=task-4.css.map */

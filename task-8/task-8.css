@@ -1,0 +1,64 @@
+/* main style starts here  */
+main {
+  margin-left: 350px;
+  margin-top: 70px;
+}
+/* main style ends here  */
+
+/* dotted box style starts here   */
+.dotted-box {
+  padding: 15px;
+  border: dotted 2px black;
+  margin-left: 65px;
+  margin-top: 25px;
+  width: 213px;
+}
+/* dotted box style ends here   */
+
+/* input box style starts here  */
+.input-box {
+  margin: 4px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px;
+}
+/* input box style ends here  */
+
+/* result style starts here  */
+.result {
+  padding: 5px;
+  margin-top: 5px;
+  position: fixed;
+  left: 850px;
+}
+
+.result b{
+  padding-left: 30px;
+}
+
+.result-container {
+  text-align: center;
+}
+/* result style ends here  */
+
+/* button style starts here  */
+button {
+  padding: 7px 10px;
+  margin: 0px 2px 0px 2px;
+}
+
+.submit-btn {
+  margin: 30px;
+  margin-left: 150px;
+}
+
+.casing-btn {
+  display: flex;
+  margin-top: 20px;
+}
+
+.lowercase-btn{
+  margin-right: 7px;
+}
+/* button style ends here  */

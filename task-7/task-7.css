@@ -1,0 +1,81 @@
+/* .parent-container styling starts here  */
+.parent-container {
+  width: 90%;
+  height: 70%;
+  margin: 30px;
+  background-color: rgb(230, 230, 230);
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+/* .parent-container styling ends here  */
+
+/* save button styling starts here  */
+.save-btn {
+  padding: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+}
+/* save button styling ends here  */
+
+/* input styling starts here  */
+.input {
+  width: 95%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* input styling ends here  */
+
+/* table styling starts here  */
+table,td,tr{
+  border: 1px solid black;
+}
+
+.table {
+  width: 96%;
+  margin-top: 25px;
+  text-align: left;
+  padding-bottom: 30px;
+  border-collapse: collapse;
+}
+/* table styling ends here  */
+
+/* edit button styling starts here  */
+.edit-btn {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: white;
+  background-color: rgb(76, 127, 247);
+  border: none;
+  border-radius: 4px;
+}
+/* edit button styling ends here  */
+
+/* delete button styling starts here  */
+.delete-btn {
+  color: white;
+  background-color: red;
+  margin-left: 15px;
+  border: none;
+  border-radius: 4px;
+}
+/* delete button styling ends here  */
+
+/* button hover styling starts here  */
+.edit-btn:hover,
+.delete-btn:hover,
+.save-btn:hover {
+  cursor: pointer;
+  background-color: rgb(94, 94, 94);
+}
+/* button hover styling ends here  */
+
+

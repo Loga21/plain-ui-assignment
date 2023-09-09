@@ -1,0 +1,13 @@
+/* body styling starts here*/
+body{
+  margin: 100px 0px 200px 500px;
+}
+/* body styling ends here*/
+
+/* table styling starts here*/
+table,
+th,
+td {
+  border: 1px solid black;
+}
+/* table styling ends here*/

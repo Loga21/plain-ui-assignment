@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head tag starts here -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  linking normalize style sheet  -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <!-- linking style sheet  -->
+  <link rel="stylesheet" href="./task-7.css">
+  <title>Task 7</title>
+</head>
+<!-- head tag ends here -->
+
+<!-- body tag starts here -->
+<body>
+  <!-- parent-container starts here  -->
+  <div class="parent-container">
+    <!-- name input starts here  -->
+    <div>
+      <label for="name">Name</label>
+      <input class="input" type="text" id="name">
+    </div>
+    <!-- name input ends here  -->
+
+    <!-- email input starts here  -->
+    <div>
+      <label for="email">Email</label>
+      <input class="input" type="text" id="email">
+    </div>
+    <!-- email input ends here  -->
+
+    <button id="saveBtn" class="save-btn" onclick="handleSaveDetails()">Save</button>
+
+    <!-- table starts here  -->
+    <table id="table" class="table">
+      <thead id="tableHead"></thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <!-- table ends here  -->
+  </div>
+  <!-- parent-container ends here  -->
+
+  <!-- linking script file  -->
+  <script src="./task-7.js"></script>
+</body>
+<!-- body tag ends here  -->
+</html>

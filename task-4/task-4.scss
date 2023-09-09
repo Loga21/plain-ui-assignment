@@ -1,0 +1,152 @@
+// declaring and assigning values with sass variables
+$label-color: rgb(2, 2, 153);
+$text-color: white;
+$main-wrapper-background-color: aquamarine;
+$person-details-layout-background-color: white;
+$aside-layout-background-color: rgb(0, 0, 218);
+$button-background-color: rgb(89, 89, 243);
+
+// style applied using universal selector
+* {
+	font-family: Arial;
+}
+
+// .main-wrapper style starts here 
+.main-wrapper {
+	border: 1px solid transparent;
+	background-color: $main-wrapper-background-color;
+	width: 82%;
+	height: 645px;
+	margin: 10px auto;
+}
+// .main-wrapper style ends here 
+
+// element selector styling starts here 
+h1 {
+	margin-left: 30px;
+}
+
+p {
+	margin-left: 30px;
+	margin-left: 30px;
+	margin-top: -12px;
+}
+// element selector styling ends here 
+
+// flex-wrapper style starts here 
+.flex-wrapper {
+	display: flex;
+	justify-content: center;
+}
+// flex-wrapper style ends here 
+
+//person-details-layout style starts here
+.person-details-layout {
+	width: 60%;
+	height: 470px;
+	margin-left: 40px;
+	margin-top: 20px;
+	background-color: $person-details-layout-background-color;
+}
+//person-details-layout style ends here
+
+// contact-us-form person-details-layout
+.contact-us-form {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-left: 35px;
+	margin-top: 25px;
+
+	label {
+		display: block;
+	}
+}
+
+// mixin func starts here 
+@mixin sass-example {
+	border: 1px solid rgb(117, 117, 117);
+	width: 80%;
+	margin-top: 8px;
+	margin-bottom: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	outline: none;
+	color: rgb(138, 138, 138);
+}
+
+.name,
+.phone,
+.email,
+.subject {
+	@include sass-example;
+}
+// mixin func ends here 
+
+// element selector styling starts here 
+label {
+	color: $label-color;
+}
+
+h3 {
+	color: $label-color;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+textarea {
+	margin-top: 10px;
+	padding: 20px;
+}
+// element selector styling ends here 
+
+//saas nesting of properties starts here
+button {
+	color: $text-color;
+	background-color: $aside-layout-background-color;
+	border-radius: 20px;
+	border: none;
+	padding: 10px 30px;
+  margin-left: -303px;
+  margin-top: 167px;
+	box-shadow: 0 2px 5px 0px #012236;
+
+	&:hover {
+		background-color: $button-background-color;
+		cursor: pointer;
+	}
+}
+//saas nesting of properties ends here
+// contact-us-form styling ends here 
+
+//aside box style starts here
+//saas nesting of properties starts here
+.aside-layout {
+	background-color: $aside-layout-background-color;
+	color: $text-color;
+	width: 80%;
+	margin-right: 38px;
+	margin-top: 20px;
+
+	h3 {
+		color: $text-color;
+		margin-left: 29px;
+	}
+
+	div {
+		display: grid;
+		grid-template-columns: 25% 69%;
+		margin-right: 23px;
+	}
+
+	span {
+		margin-top: 30px;
+		margin-left: 30px;
+	}
+}
+
+.address{
+	padding-top: 25px;
+}
+//saas nesting of properties ends here
+// aside layout style ends here 

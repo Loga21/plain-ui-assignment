@@ -1,0 +1,58 @@
+/* table styling starts here  */
+table {
+  margin: 80px 0 10px 300px;
+  font-family: Garamond;
+  font-size: 23px;
+  border-collapse: collapse;
+}
+/* table styling ends here  */
+
+/* table heading style starts here  */
+.table-head {
+  width: 145px;
+  text-align: left;
+  padding: 15px 0px;
+  padding-left: 50px;
+  border-top: 1px solid rgb(170, 170, 170);
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+/* table heading style ends here  */
+
+/* table data styling starts here  */
+.table-data{
+  text-align: left;
+  padding: 30px;
+  padding-left: 52px;
+}
+/* table data styling ends here  */
+
+/* table row styling starts here  */
+.table-row {
+  text-align: left;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+/* table row styling ends here  */
+
+/* button styling starts here  */
+.button {
+  margin: 20px 10px 10px 50px;
+  padding: 15px 25px;
+  color: white;
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(201, 1, 1);
+  cursor: pointer;
+}
+/* button styling ends here  */
+
+/* transition effect starts here */
+.transition {
+  opacity: 1;
+  transform: scale(1.5)  translateX(2px) translateY(2px) skewX(1deg);
+  transition: all 1.5s ease-out;
+}
+/* transition effect ends here */

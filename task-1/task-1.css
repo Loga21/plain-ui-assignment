@@ -1,0 +1,32 @@
+/* body styling starts here*/
+body{
+  margin: 50px 0px 200px 400px;
+}
+/* body styling ends here*/
+
+/* table styling starts here*/
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.first-name,
+.last-name,
+.phone-number,
+.address {
+  background-color: rgb(255, 255, 192);
+}
+
+.checkbox-color{
+  accent-color: gray;
+}
+
+.fa-asterisk{
+  color: red;
+}
+
+.submit-button {
+  text-align: center;
+}
+/* table styling ends here*/

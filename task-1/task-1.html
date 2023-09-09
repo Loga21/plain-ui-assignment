@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head tag starts here  -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  linking normalize style sheet  -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <!--  linking font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!--  linking style sheet -->
+  <link rel="stylesheet" href="./task-1.css">
+  <title>Task 1</title>
+</head>
+<!-- head tag ends here  -->
+
+<!-- body tag starts here  -->
+<body>
+  <!-- form tag starts here -->
+  <form>
+    <!-- table starts here -->
+    <table>
+      <!-- table heading  -->
+      <tr>
+        <th colspan="3">XYZ University Student Registration</th>
+      </tr>
+
+      <!-- first name of the person  -->
+      <tr>
+        <th rowspan="4">Personal Details</th>
+        <td><label for="firstName">First Name</label> <i class="fa-thin fa-asterisk"></i></td>
+        <td><input type="text" id="firstName" class="first-name" maxlength="10" required></td>
+      </tr>
+
+      <!-- last name of the person  -->
+      <tr>
+        <td><label for="lastName">Last Name</label> <i class="fa-thin fa-asterisk"></i></td>
+        <td><input type="text" id="lastName" class="last-name" maxlength="10" required></td>
+      </tr>
+
+      <!-- date of birth of the person -->
+      <tr>
+        <td>Date of Birth <i class="fa-thin fa-asterisk"></i></td>
+        <td><input type="date" required></td>
+      </tr>
+
+      <!-- gender of the person  -->
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="Male" id="male" class="checkbox-color" checked><label for="male">
+            Male</label>
+          <input type="radio" name="gender" value="Female" id="female" class="checkbox-color"><label for="female">
+            Female</label>
+          <input type="radio" name="gender" value="Other" id="other" class="checkbox-color"><label for="other">
+            Other</label>
+        </td>
+      </tr>
+
+      <!-- academic details of the person  -->
+      <tr>
+        <th rowspan="4">Academic Details</th>
+        <td>Degree</td>
+        <td>
+          <select>
+            <option value="Bachelors">Bachelors</option>
+            <option value="Masters" selected>Masters</option>
+            <option value="Doctorate">Doctorate</option>
+          </select>
+        </td>
+      </tr>
+
+      <!-- Specialization of the person  -->
+      <tr>
+        <td>Specialization <i class="fa-thin fa-asterisk"></i></td>
+        <td><input type="text" value="English Literature" maxlength="40" required></td>
+      </tr>
+      
+      <!-- Required Mode of instruction  -->
+      <tr>
+        <td>Mode of instruction</td>
+        <td>
+          <input type="checkbox" id="classroom" class="checkbox-color" checked><label for="classroom"> Classroom</label>
+          <input type="checkbox" id="online" class="checkbox-color"><label for="online"> Online</label>
+        </td>
+      </tr>
+      
+      <!--  Current GPA of the person  -->
+      <tr>
+        <td>Current GPA <i class="fa-thin fa-asterisk"></i></td>
+        <td><input type="number" min="0" max="5" step="0.1" required></td>
+      </tr>
+      
+      <!-- contact details of the person  -->
+      <tr>
+        <th rowspan="2">Contact Details</th>
+        <td><label for="phoneNumber">Phone Number</label> <i class="fa-thin fa-asterisk"></i></td>
+        <td><input type="number" id="phoneNumber" class="phone-number" required></td>
+      </tr>
+      
+      <!-- address details of the person  -->
+      <tr>
+        <td><label for="address">Address</label> <i class="fa-thin fa-asterisk"></i></td>
+        <td>
+          <textarea name="address" id="address" class="address" rows="4" cols="40" required></textarea>
+        </td>
+      </tr>
+      
+      <!-- consent to the form  -->
+      <tr>
+        <th colspan="3">
+          I assure all the details entered are correct:
+          <input type="checkbox" id="consentCheckbox" class="checkbox-color" checked><label for="consentCheckbox"> Yes</label>
+          </th>
+        </tr>
+        
+        <!-- submit button of the form  -->
+        <tr>
+          <td colspan="3" class="submit-button">
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+    </table>
+    <!-- table ends here -->
+  </form>
+  <!-- form tag ends here -->
+</body>
+<!-- body tag ends here  -->
+</html>
